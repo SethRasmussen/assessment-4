@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="container">
+    <div>
+     <button id="complimentBtn">Get a compliment</button>
+    </div>
+    <div>
+      <button id="fortuneBtn">Get a fortune</button>
+    </div>
+    
+
+    <button id="getUserBtn">Show All Users</button>
+    <form>
+      <input 
+          type='text'
+          id="name"
+          placeholder="What is your name?"/>
+      <input 
+          type='text'
+          id="age"
+          placeholder='What is your age?'/>
+      <input 
+          type='text'
+          id="usrname"
+          placeholder='Create a Username'/>
+      <button id="userBtn">Add User</button>
+  </form>
+
+  <section id="users-container"></section>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
